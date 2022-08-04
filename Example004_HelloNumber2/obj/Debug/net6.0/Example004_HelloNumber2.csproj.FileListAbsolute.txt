@@ -1,0 +1,15 @@
+D:\C# Education\Example004_HelloNumber2\bin\Debug\net6.0\Example004_HelloNumber2.exe
+D:\C# Education\Example004_HelloNumber2\bin\Debug\net6.0\Example004_HelloNumber2.deps.json
+D:\C# Education\Example004_HelloNumber2\bin\Debug\net6.0\Example004_HelloNumber2.runtimeconfig.json
+D:\C# Education\Example004_HelloNumber2\bin\Debug\net6.0\Example004_HelloNumber2.dll
+D:\C# Education\Example004_HelloNumber2\bin\Debug\net6.0\Example004_HelloNumber2.pdb
+D:\C# Education\Example004_HelloNumber2\obj\Debug\net6.0\Example004_HelloNumber2.csproj.AssemblyReference.cache
+D:\C# Education\Example004_HelloNumber2\obj\Debug\net6.0\Example004_HelloNumber2.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Education\Example004_HelloNumber2\obj\Debug\net6.0\Example004_HelloNumber2.AssemblyInfoInputs.cache
+D:\C# Education\Example004_HelloNumber2\obj\Debug\net6.0\Example004_HelloNumber2.AssemblyInfo.cs
+D:\C# Education\Example004_HelloNumber2\obj\Debug\net6.0\Example004_HelloNumber2.csproj.CoreCompileInputs.cache
+D:\C# Education\Example004_HelloNumber2\obj\Debug\net6.0\Example004_HelloNumber2.dll
+D:\C# Education\Example004_HelloNumber2\obj\Debug\net6.0\refint\Example004_HelloNumber2.dll
+D:\C# Education\Example004_HelloNumber2\obj\Debug\net6.0\Example004_HelloNumber2.pdb
+D:\C# Education\Example004_HelloNumber2\obj\Debug\net6.0\Example004_HelloNumber2.genruntimeconfig.cache
+D:\C# Education\Example004_HelloNumber2\obj\Debug\net6.0\ref\Example004_HelloNumber2.dll
