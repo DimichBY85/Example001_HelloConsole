@@ -1,0 +1,15 @@
+D:\C# Education\Example006_HelloGiri\bin\Debug\net6.0\Example006_HelloGiri.exe
+D:\C# Education\Example006_HelloGiri\bin\Debug\net6.0\Example006_HelloGiri.deps.json
+D:\C# Education\Example006_HelloGiri\bin\Debug\net6.0\Example006_HelloGiri.runtimeconfig.json
+D:\C# Education\Example006_HelloGiri\bin\Debug\net6.0\Example006_HelloGiri.dll
+D:\C# Education\Example006_HelloGiri\bin\Debug\net6.0\Example006_HelloGiri.pdb
+D:\C# Education\Example006_HelloGiri\obj\Debug\net6.0\Example006_HelloGiri.csproj.AssemblyReference.cache
+D:\C# Education\Example006_HelloGiri\obj\Debug\net6.0\Example006_HelloGiri.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Education\Example006_HelloGiri\obj\Debug\net6.0\Example006_HelloGiri.AssemblyInfoInputs.cache
+D:\C# Education\Example006_HelloGiri\obj\Debug\net6.0\Example006_HelloGiri.AssemblyInfo.cs
+D:\C# Education\Example006_HelloGiri\obj\Debug\net6.0\Example006_HelloGiri.csproj.CoreCompileInputs.cache
+D:\C# Education\Example006_HelloGiri\obj\Debug\net6.0\Example006_HelloGiri.dll
+D:\C# Education\Example006_HelloGiri\obj\Debug\net6.0\refint\Example006_HelloGiri.dll
+D:\C# Education\Example006_HelloGiri\obj\Debug\net6.0\Example006_HelloGiri.pdb
+D:\C# Education\Example006_HelloGiri\obj\Debug\net6.0\Example006_HelloGiri.genruntimeconfig.cache
+D:\C# Education\Example006_HelloGiri\obj\Debug\net6.0\ref\Example006_HelloGiri.dll
