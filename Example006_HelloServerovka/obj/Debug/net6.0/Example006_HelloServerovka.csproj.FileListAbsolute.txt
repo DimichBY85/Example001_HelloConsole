@@ -1,0 +1,15 @@
+D:\C# Education\Example006_HelloServerovka\obj\Debug\net6.0\Example006_HelloServerovka.csproj.AssemblyReference.cache
+D:\C# Education\Example006_HelloServerovka\obj\Debug\net6.0\Example006_HelloServerovka.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Education\Example006_HelloServerovka\obj\Debug\net6.0\Example006_HelloServerovka.AssemblyInfoInputs.cache
+D:\C# Education\Example006_HelloServerovka\obj\Debug\net6.0\Example006_HelloServerovka.AssemblyInfo.cs
+D:\C# Education\Example006_HelloServerovka\obj\Debug\net6.0\Example006_HelloServerovka.csproj.CoreCompileInputs.cache
+D:\C# Education\Example006_HelloServerovka\bin\Debug\net6.0\Example006_HelloServerovka.exe
+D:\C# Education\Example006_HelloServerovka\bin\Debug\net6.0\Example006_HelloServerovka.deps.json
+D:\C# Education\Example006_HelloServerovka\bin\Debug\net6.0\Example006_HelloServerovka.runtimeconfig.json
+D:\C# Education\Example006_HelloServerovka\bin\Debug\net6.0\Example006_HelloServerovka.dll
+D:\C# Education\Example006_HelloServerovka\bin\Debug\net6.0\Example006_HelloServerovka.pdb
+D:\C# Education\Example006_HelloServerovka\obj\Debug\net6.0\Example006_HelloServerovka.dll
+D:\C# Education\Example006_HelloServerovka\obj\Debug\net6.0\refint\Example006_HelloServerovka.dll
+D:\C# Education\Example006_HelloServerovka\obj\Debug\net6.0\Example006_HelloServerovka.pdb
+D:\C# Education\Example006_HelloServerovka\obj\Debug\net6.0\Example006_HelloServerovka.genruntimeconfig.cache
+D:\C# Education\Example006_HelloServerovka\obj\Debug\net6.0\ref\Example006_HelloServerovka.dll
