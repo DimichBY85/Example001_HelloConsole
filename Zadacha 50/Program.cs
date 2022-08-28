@@ -1,4 +1,6 @@
-﻿Console.WriteLine("введите номер строки");
+//Задача 50. Напишите программу, которая на вход принимает число и ищет в двумерном массиве, и возвращает индексы этого элемента или же указание, что такого элемента нет.
+
+Console.WriteLine("введите номер строки");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите номер столбца");
 int m = Convert.ToInt32(Console.ReadLine());
