@@ -1,4 +1,6 @@
-﻿int[,] randomArray = GetFillArray(3, 4);
+//Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
+
+int[,] randomArray = GetFillArray(3, 4);
 PrintArray(randomArray);
 Console.WriteLine();
 Console.WriteLine("Среднее арифметическое каждого столбца:");
