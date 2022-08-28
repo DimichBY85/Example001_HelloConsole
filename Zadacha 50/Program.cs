@@ -1,42 +1,55 @@
-﻿Console.WriteLine("введите номер строки");
-int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("введите номер столбца");
-int m = Convert.ToInt32(Console.ReadLine());
-int [,] numbers = new int [10,10];
-FillArrayRandomNumbers(numbers);
+//Задача 50. Напишите программу, которая на вход принимает число и ищет в двумерном массиве, и возвращает индексы этого элемента или же указание, что такого элемента нет.
 
-if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
+Console.Write("Введите № строки: ");
+bool inputFirst = int.TryParse(Console.ReadLine(), out int
+numberRows);
+
+Console.Write("Введите № столбца: ");
+bool inputSecond = int.TryParse(Console.ReadLine(), out int
+numberColumns);
+
+if (inputFirst && inputSecond)
 {
-    Console.WriteLine("такого элемента нет");
+    int[,] randomArray = GetFillArray(3, 4);
+    PrintArray(randomArray);
+    Console.WriteLine();
+    FindElementPosition(randomArray, numberRows, numberColumns);
 }
-else
-{
-    Console.WriteLine($"значение элемента {n} строки и {m} столбца равно {numbers[n-1,m-1]}");
-}
+else Console.WriteLine($"Некорректный ввод!");
 
-PrintArray(numbers);
-
-void FillArrayRandomNumbers(int[,] array)
+int[,] GetFillArray(int m, int n)
 {
+    int[,] array = new int[m, n];
+    Random randomElement = new Random();
     for (int i = 0; i < array.GetLength(0); i++)
-        {        
-            for (int j = 0; j < array.GetLength(1); j++)
-            {
-                array [i,j] = new Random().Next(-100, 100)/10;
-            }   
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            array[i, j] = randomElement.Next(10);
         }
+    }
+    return array;
 }
 
 void PrintArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
-        Console.Write("[ ");
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write(array[i,j] + " ");
-        }   
-        Console.Write("]");
-        Console.WriteLine(""); 
+            Console.Write(array[i, j]);
+        }
+        Console.WriteLine();
     }
+}
+
+void FindElementPosition(int[,] array, int positionRows, int positionColumns)
+{
+    if (positionRows < array.GetLength(0) && positionColumns < array.GetLength(1))
+    {
+        Console.WriteLine($"На позиции строка № {positionRows}, столбец № {positionColumns} " +
+                          $"находится элемент со значением: {array[positionRows - 1, positionColumns - 1]}");
+        
+    }
+    else Console.WriteLine($"Cтрока № {positionRows}, столбец № {positionColumns} - такой позиции в массиве нет.");
 }

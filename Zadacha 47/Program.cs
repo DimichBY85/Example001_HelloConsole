@@ -1,34 +1,42 @@
 ﻿//Задача 47: Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
 
-Console.WriteLine("введите количество строк");
-int linesVol = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("введите количество столбцов");
-int columnsVol = Convert.ToInt32(Console.ReadLine());
-double[,] numbers = new double[linesVol, columnsVol];
-FillArrayRandomNumbers(numbers);
-PrintArray(numbers);
+Console.WriteLine();
 
-void FillArrayRandomNumbers(double[,] array)
+Console.Write("Введите m: ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите n: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+Console.Clear();
+Console.WriteLine($"m = {m}, n = {n}.");
+
+double[,] array = new double[m, n];
+
+CreateArrayDouble(array);
+
+WriteArray(array);
+
+Console.WriteLine();
+
+void CreateArrayDouble(double[,] array)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+  for (int i = 0; i < m; i++)
+  {
+    for (int j = 0; j < n; j++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            array[i, j] = Convert.ToDouble(new Random().Next(-100, 100)) / 10;
-        }
+      array[i, j] = new Random().NextDouble() * 20 - 10;
     }
+  }
 }
 
-void PrintArray(double[,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        Console.Write("[ ");
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            Console.Write(array[i, j] + " ");
-        }
-        Console.Write("]");
-        Console.WriteLine("");
-    }
+void WriteArray (double[,] array){
+for (int i = 0; i < m; i++)
+  {
+      for (int j = 0; j < n; j++)
+      {
+        double alignNumber = Math.Round(array[i, j], 1);
+        Console.Write(alignNumber + " ");
+      }
+      Console.WriteLine();
+  }
 }
